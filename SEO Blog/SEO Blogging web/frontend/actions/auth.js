@@ -76,7 +76,7 @@ export const removeCookie = key => {
         });
     }
 };
-// get cookie
+// code for get cookie
 export const getCookie = key => {
     if (process.browser) {
         return cookie.get(key);

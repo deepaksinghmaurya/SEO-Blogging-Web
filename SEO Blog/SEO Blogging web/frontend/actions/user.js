@@ -43,4 +43,5 @@ export const update = (token, user) => {
             return response.json();
         })
         .catch(err => console.log(err));
+
 };

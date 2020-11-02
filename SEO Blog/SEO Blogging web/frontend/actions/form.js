@@ -18,6 +18,7 @@ export const emailContactForm = data => {
         },
         body: JSON.stringify(data)
     })
+
         .then(response => {
             return response.json();
         })

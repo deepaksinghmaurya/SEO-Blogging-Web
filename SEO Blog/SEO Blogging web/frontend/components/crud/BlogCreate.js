@@ -26,8 +26,8 @@ const CreateBlog = ({ router }) => {
 
     const [categories, setCategories] = useState([]);
     const [tags, setTags] = useState([]);
-
-    const [checked, setChecked] = useState([]); // categories
+    // Added code for categories
+    const [checked, setChecked] = useState([]);
     const [checkedTag, setCheckedTag] = useState([]); // tags
 
     const [body, setBody] = useState(blogFromLS());

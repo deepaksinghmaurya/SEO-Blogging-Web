@@ -48,6 +48,7 @@ export const removeCategory = (slug, token) => {
             Authorization: `Bearer ${token}`
         }
     })
+
         .then(response => {
             handleResponse(response);
             return response.json();

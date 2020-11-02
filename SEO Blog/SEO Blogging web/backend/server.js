@@ -16,7 +16,7 @@ const formRoutes = require('./routes/form');
 // app
 const app = express();
 
-// db
+// Database
 mongoose
     .connect(process.env.DATABASE_LOCAL, { useNewUrlParser: true, useCreateIndex: true, useFindAndModify: false })
     .then(() => console.log('DB connected'))
